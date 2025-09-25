@@ -1,0 +1,7 @@
+{
+  // Aapke paas yahan aur bhi settings ho sakti hain
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+
+  // Yeh line add karein
+  "postCreateCommand": "sudo timedatectl set-timezone Asia/Kolkata"
+}
